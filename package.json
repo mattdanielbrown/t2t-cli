@@ -1,0 +1,24 @@
+{
+  "name": "t2t-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for the t2t npm package.",
+  "main": "index.js",
+  "bin": "bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdanielbrown/t2t-cli.git"
+  },
+  "author": "Matt Daniel Brown <mattdbrown@protonmail.com> (https://mattdbrown.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattdanielbrown/t2t-cli/issues"
+  },
+  "homepage": "https://github.com/mattdanielbrown/t2t-cli#readme",
+  "dependencies": {
+    "commander": "^9.5.0",
+    "t2t": "^1.0.2"
+  }
+}
