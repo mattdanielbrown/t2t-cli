@@ -1,6 +1,9 @@
+#!/usr/bin/env node
+"use strict";
+
 const {Command} = require('commander');
-const {convertTemperature} = require('../lib/convert-temperature');
-const {parseArguments} = require('../lib/parse-arguments');
+const {convertTemperature} = require('./lib/convert-temperature');
+const {parseArguments} = require('./lib/parse-arguments');
 const program = new Command();
 
 program

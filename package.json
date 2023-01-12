@@ -2,10 +2,24 @@
   "name": "t2t-cli",
   "version": "0.0.1",
   "description": "Command line interface for the t2t npm package.",
+  "global": true,
+  "location": "global",
   "main": "index.js",
-  "bin": "bin/cli.js",
+  "bin": {
+    "t2t": "cli.js"
+  },
+  "keywords": [
+    "temperature",
+    "conversion",
+    "celsius",
+    "fahrenheit",
+    "cli"
+  ],
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +34,9 @@
   "dependencies": {
     "commander": "^9.5.0",
     "t2t": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1"
   }
 }
