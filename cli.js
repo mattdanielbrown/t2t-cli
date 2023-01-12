@@ -9,7 +9,7 @@ const program = new Command();
 program
 		.name('t2t')
 		.description('CLI for converting temperatures between celsius and fahrenheit.')
-		.version('1.1.2')
+		.version('1.1.3')
 		.arguments('<temperatureAndScale>')
 		.option('-n, --no-scale', 'omit trailing letter indicating temperature scale from result')
 		.option('-d, --degree', 'include degree symbol in the result')
@@ -42,5 +42,5 @@ program
 			
 		});
 
-program.version('1.1.2', '-v, --version', 'output the current version');
+program.version('1.1.3', '-v, --version', 'output the current version');
 program.parse();
