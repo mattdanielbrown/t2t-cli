@@ -36,7 +36,7 @@
     "t2t": "^1.0.2"
   },
   "devDependencies": {
-    "jest": "^29.3.1",
+    "jest": "^30.0.5",
     "jest-environment-jsdom": "^29.3.1"
   }
 }
